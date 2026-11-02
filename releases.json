@@ -1,0 +1,17 @@
+{
+  "product": "Aava IPTV",
+  "windows": {
+    "version": "0.4.5",
+    "channel": "preview",
+    "architecture": "x64",
+    "minimumSystem": "Windows 10 (2004)",
+    "url": "https://github.com/Siitospastori/Aava-iptv-downloads/releases/download/windows-v0.4.5/Aava-Windows-0.4.5-standalone.zip",
+    "releaseUrl": "https://github.com/Siitospastori/Aava-iptv-downloads/releases/tag/windows-v0.4.5"
+  },
+  "mac": {
+    "status": "coming-soon",
+    "version": null,
+    "url": null,
+    "releaseUrl": null
+  }
+}

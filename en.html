@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Your IPTV channels, movies and series in one place. Discover Aava for Windows and download the preview.">
+  <meta name="theme-color" content="#0b0b0d">
+  <title>Aava IPTV — your library, your time to watch</title>
+  <link rel="icon" href="assets/aava.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="downloads.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#sisalto">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="en.html" aria-label="Aava IPTV"><img src="assets/aava.svg" width="188" height="62" alt="Aava IPTV"></a>
+    <nav aria-label="Main navigation"><a href="#ominaisuudet">Discover</a><a href="#lataa">Download</a><a href="https://aava-iptv-tuki.ambernova32.chatgpt.site/">Help</a><a href="index.html" lang="fi" aria-label="Lue suomeksi">FI</a></nav>
+  </header>
+  <main id="sisalto">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Aava IPTV · Taipale IT</p>
+        <h1 id="hero-title">Your library.<br><span>Your time to watch.</span></h1>
+        <p class="lead">Your channels, movies and series together in Aava. Connect your own IPTV service and find something to watch in a clean, dark library.</p>
+        <div class="hero-actions"><a class="button primary" href="#lataa">Download Aava <span aria-hidden="true">↓</span></a><a class="text-link" href="#ominaisuudet">Explore the features <span aria-hidden="true">↗</span></a></div>
+        <p class="availability">Windows preview available · Mac version in progress</p>
+      </div>
+      <figure class="app-figure">
+        <div class="app-window"><div class="window-title"><span class="window-dot" aria-hidden="true"></span>Aava IPTV <span class="window-platform">Windows</span></div><img src="assets/windows-library.png" width="960" height="540" alt="Aava’s dark library with navigation, search and channel cards." fetchpriority="high"></div>
+        <figcaption>The Windows app displaying Aava’s own demo library.</figcaption>
+      </figure>
+    </section>
+    <div class="service-note wrap"><span class="note-mark" aria-hidden="true">i</span><p><strong>Your content. Aava’s player.</strong> Aava does not include channels, movies or an IPTV subscription. You need your own Xtream Codes or M3U source and the right to access its content.</p></div>
+    <section id="ominaisuudet" class="features wrap" aria-labelledby="features-title">
+      <div class="section-heading"><p class="eyebrow">Included in the Windows version</p><h2 id="features-title">Less searching.<br>More watching.</h2></div>
+      <div class="feature-list">
+        <article><span class="feature-number">01</span><div><h3>A library that keeps up</h3><p>Browse channels by group, search movies and series, and save your favourites. Resume an unfinished movie from where you left off.</p></div></article>
+        <article><span class="feature-number">02</span><div><h3>Picture and sound your way</h3><p>Choose the stream’s audio and subtitle tracks. Import an SRT/VTT file or search OpenSubtitles using your own API key.</p></div></article>
+        <article><span class="feature-number">03</span><div><h3>From a small window to full screen</h3><p>Keep watching in a picture-in-picture window above other windows, or go full screen. Pause, channel switching and picture fit are available in the player controls.</p></div></article>
+      </div>
+    </section>
+    <section class="download-section" id="lataa" aria-labelledby="download-title"><div class="wrap">
+      <p class="eyebrow">Aava on your computer</p><h2 id="download-title">Choose your platform.</h2><p class="section-intro">Windows and Mac use separate packages. Downloads come directly from Aava’s GitHub releases.</p>
+      <div class="downloads">
+        <article class="download-card available"><div class="card-top"><span class="platform-icon" aria-hidden="true">⊞</span><span class="status">Available · preview</span></div><h3>Windows</h3><p class="platform-detail">Windows 10 (2004) / Windows 11 · x64</p><a class="button primary full" id="windows-download" href="https://github.com/Siitospastori/Aava-iptv-downloads/releases/download/windows-v0.4.5/Aava-Windows-0.4.5-standalone.zip">Download for Windows <span aria-hidden="true">↓</span></a><p class="file-detail">Version <span id="windows-version">0.4.5</span> · ZIP package</p><p class="card-note">Extract the whole package into a folder and open <strong>Aava.exe</strong>. Microsoft Edge WebView2 Runtime is required. This preview does not yet have a Windows publisher signature.</p><a class="subtle-link" id="windows-release" href="https://github.com/Siitospastori/Aava-iptv-downloads/releases/tag/windows-v0.4.5">Release notes and checksum ↗</a></article>
+        <article class="download-card" id="mac-card"><div class="card-top"><span class="platform-icon mac-icon" aria-hidden="true">M</span><span class="status pending" id="mac-badge">In progress</span></div><h3>Mac</h3><p class="platform-detail" id="mac-requirements">A dedicated native macOS app</p><button class="button secondary full" id="mac-download" type="button" disabled aria-describedby="mac-status">Mac — coming soon</button><p class="file-detail" id="mac-version">The download will open when the tested package is ready.</p><p class="card-note" id="mac-status">The Mac version is being completed and tested on Mac. Its signed installer will be available here.</p></article>
+      </div>
+      <p class="download-footnote">The Windows guide is currently a channel list. AirPlay/Chromecast, multiview and profiles are not included in this Windows preview. <a href="https://github.com/Siitospastori/Aava-iptv-downloads/blob/main/WINDOWS.md">See features and limitations ↗</a></p>
+    </div></section>
+    <section class="getting-started wrap" aria-labelledby="start-title"><div><p class="eyebrow">Your first viewing session</p><h2 id="start-title">Three steps to Aava.</h2></div><ol><li><strong>Download and open</strong><span>Choose the package for your operating system and open the app.</span></li><li><strong>Connect your own service</strong><span>Enter your service’s Xtream Codes details or M3U URL in the app.</span></li><li><strong>Choose something to watch</strong><span>Open a channel, movie or series. Without your own source, you can explore Aava’s demo library.</span></li></ol></section>
+    <section class="help-strip wrap"><div><h2>Need a hand?</h2><p>Find setup, source and playback instructions on Aava’s support site.</p></div><a class="button secondary" href="https://aava-iptv-tuki.ambernova32.chatgpt.site/">Open the help pages ↗</a></section>
+  </main>
+  <footer class="wrap"><a href="https://taipaleit.fi">Taipale IT</a><p>Aava IPTV · your time to watch</p><div><a href="https://taipaleit.fi/tietosuoja">Website privacy</a><a href="https://github.com/Siitospastori/Aava-iptv-downloads">GitHub</a><a href="mailto:lasse.tolvanen@taipaleit.fi">Contact</a></div></footer>
+</body>
+</html>
